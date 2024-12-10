@@ -1,0 +1,145 @@
+.employer-dash header{
+  background-color: mediumseagreen;
+}
+
+
+.employer-dash h1{
+  color:wheat;
+  padding:100px;
+  padding-top: 10px;
+}
+
+
+.employer-dashboard .jumbotron{
+    height: 510px;
+    width: 600px;
+    margin:auto;
+    margin-top:-100px;
+    border: 2px solid #ccc; /* Border styling */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    text-align: center; /* Center text */
+    background-color: whitesmoke!important; /* Light background */
+    color: #333; /* Text color */
+    
+    
+}
+
+.posted-jobs {
+    margin-top: 0px;
+    padding: 20px;
+    background-color:linen;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .posted-jobs h2 {
+    text-align: center;
+    color:black;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-family:fantasy;
+    font-weight: bold;
+  }
+  
+  .posted-jobs ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .posted-jobs li {
+    background-color: white;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .posted-jobs li:hover {
+    border-color: #007bff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .posted-jobs li strong {
+    color: #007bff;
+    font-size: 1.2rem;
+  }
+  
+  .posted-jobs li em {
+    display: block;
+    margin-top: 5px;
+    color: #555;
+    font-size: 0.9rem;
+    font-style: normal;
+  }
+  
+  .posted-jobs li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .posted-jobs p {
+    text-align: center;
+    color: #666;
+    font-size: 1rem;
+  }
+  button {
+    background-color: white;
+    color: white;
+    font-weight: bold;
+    padding: 8px 16px;
+    font-size: 14px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+  }
+
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button.delete-btn {
+    background-color: #d5c7c9;
+    color: white;
+  }
+  
+  button.delete-btn:hover {
+    background-color: #ff6f91;
+  }
+  
+  button.delete-btn:active {
+    transform: scale(0.95);
+  }
+
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 70px 0;
+    text-align: center;
+}
+
+header h1{
+    font-size: 300%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    margin-bottom: 10px;
+}
+
+header h2{
+    color:#666;
+    font-family:fantasy;
+    margin-bottom: 10px;
+}
+
+form {
+    text-align: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,64 @@
+.jobseeker-dash header{
+  background-color: mediumseagreen;
+}
+
+
+.jobseeker-dash h1{
+  color:wheat;
+  padding:100px;
+  padding-top: 10px;
+}
+
+
+/* Applied Jobs Container */
+.Applied-jobs {
+    margin: 20px 0;
+    max-width: auto;
+    background-color:linen;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: -80px;
+  }
+  
+  .Applied-jobs h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+  }
+
+  
+  /* List of applied jobs */
+  .Applied-jobs ul {
+    list-style:none;
+    padding: 0;
+  }
+  
+  .Applied-jobs ul li {
+    background-color: white;
+    color:black;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Applied-jobs ul li strong {
+    color: #333;
+  }
+  
+  .Applied-jobs ul li button {
+    margin-top: 10px;
+    background-color: #ff4d4f;
+    color: black;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Applied-jobs ul li button:hover {
+    background-color: #cc0000;
+  }
