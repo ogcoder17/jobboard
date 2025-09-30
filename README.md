@@ -1,2 +1,2 @@
 # job-board
-Codsoft Internship Task1 of Level-2: Job-board Application.
+A job searching platform for uploading and finding of Jobs!
